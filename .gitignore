@@ -1,0 +1,13 @@
+/.idea/
+/ARDUINO/.vscode/
+/ARDUINO/
+/ARDUINO_NEW/ETLIOS2/
+/ARDUINO_2/ETLIOS3/
+/ARDUINO_2/ETLIOS4/ETLIOS4/.vscode/
+/ARDUINO_2/ETLIOS4/ETLIOS4/.gitignore
+/PYTHON/.catkin_tools/
+/PYTHON/devel/
+/PYTHON/logs/
+/PYTHON/src/etlios/devel/
+/PYTHON/src/etlios/logs/catkin_tools_prebuild/
+/PYTHON/src/etlios/build/catkin_tools_prebuild/

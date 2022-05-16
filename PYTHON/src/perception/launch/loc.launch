@@ -1,0 +1,18 @@
+<launch>
+
+<arg name="map_filename" default="$(find perception)/map.txt"/>
+
+<node pkg="perception" type="load_map.py" name="load_map">
+    <param name="filename" value="$(arg map_filename)"/>
+</node>
+
+<node pkg="amcl" type="amcl" name="amcl">
+    <param name="update_min_d" value="0.1" />
+    <param name="update_min_a" value="0.1" />
+    <param name="max_particles" value="10000" />
+    <param name="initial_cov_xx" value="4" />
+    <param name="initial_cov_yy" value="4" />
+    <param name="initial_cov_aa" value="3" />
+</node>
+
+</launch>
